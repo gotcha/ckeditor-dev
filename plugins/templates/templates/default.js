@@ -11,6 +11,26 @@ CKEDITOR.addTemplates( 'default', {
 
 	// The templates definitions.
 	templates: [
+            {
+                title: 'Attentionbox Orange',
+                image: 'atb1.png',
+                description: 'template for an orange attentionbox',
+                html:
+                    '<div class="attentionbox1"><h6>Dit is attentionbox1</h6>' +
+                    '<p>Dit is een stukje tekst in een attentionbox1. U kan hier ook een <a href="#">link</a> aanbrengen.</p></div>' +
+                    '<p>Meer tekst</p>'
+                //,allowedContent: 'div (attentionbox1)'
+            },
+            {
+                title: 'Attentionbox Grey',
+                image: 'atb2.png',
+                description: 'template for a grey attentionbox',
+                html:
+                    '<div class="attentionbox2"><h6>Dit is attentionbox2</h6>' +
+                    '<p>Dit is een stukje tekst in een attentionbox2. U kan hier ook een <a href="#">link</a> aanbrengen.</p></div>' +
+                    '<p>Meer tekst</p>'
+                //,allowedContent: 'div (attentionbox2)'
+            },
 		{
 		title: 'Image and Title',
 		image: 'template1.gif',
